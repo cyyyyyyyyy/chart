@@ -1,0 +1,141 @@
+2017-07-12 18:25:04,654 INFO 21769 [master] =================== egg start =====================
+2017-07-12 18:25:04,656 INFO 21769 [master] egg version 1.6.0
+2017-07-12 18:25:04,656 INFO 21769 [master] start with options:
+{
+  "framework": "/Users/chengyang/project/chart/node_modules/egg",
+  "baseDir": "/Users/chengyang/project/chart",
+  "port": 7001,
+  "workers": 8,
+  "plugins": null,
+  "https": false,
+  "key": "",
+  "cert": ""
+}
+2017-07-12 18:25:04,656 INFO 21769 [master] start with env: isProduction: true, isDebug: false, EGG_SERVER_ENV: prod, NODE_ENV: undefined
+2017-07-12 18:25:04,667 INFO 21769 [master] agent_worker#1:21770 start with clusterPort:63996
+2017-07-12 18:25:04,936 INFO 21770 [egg:logger] init all loggers with options: {"dir":"/Users/chengyang/logs/chart","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"chart-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"type":"agent"}
+2017-07-12 18:25:04,986 INFO 21770 [egg-watcher:agent] watcher start success
+2017-07-12 18:25:04,987 WARN 21770 [egg-watcher] defaultEventSource watcher will NOT take effect
+2017-07-12 18:25:04,993 INFO 21769 [master] agent_worker#1:21770 started (332ms)
+2017-07-12 18:25:04,994 INFO 21769 [master] start appWorker with args ["{\"framework\":\"/Users/chengyang/project/chart/node_modules/egg\",\"baseDir\":\"/Users/chengyang/project/chart\",\"port\":7001,\"workers\":8,\"plugins\":null,\"https\":false,\"key\":\"\",\"cert\":\"\",\"clusterPort\":63996}"]
+2017-07-12 18:25:05,015 INFO 21769 [master] app_worker#1:21771 start, state: none, current workers: ["1","2","3","4","5","6","7","8"]
+2017-07-12 18:25:05,017 INFO 21769 [master] app_worker#2:21772 start, state: none, current workers: ["1","2","3","4","5","6","7","8"]
+2017-07-12 18:25:05,017 INFO 21769 [master] app_worker#3:21773 start, state: none, current workers: ["1","2","3","4","5","6","7","8"]
+2017-07-12 18:25:05,017 INFO 21769 [master] app_worker#4:21774 start, state: none, current workers: ["1","2","3","4","5","6","7","8"]
+2017-07-12 18:25:05,017 INFO 21769 [master] app_worker#5:21775 start, state: none, current workers: ["1","2","3","4","5","6","7","8"]
+2017-07-12 18:25:05,017 INFO 21769 [master] app_worker#6:21776 start, state: none, current workers: ["1","2","3","4","5","6","7","8"]
+2017-07-12 18:25:05,017 INFO 21769 [master] app_worker#7:21777 start, state: none, current workers: ["1","2","3","4","5","6","7","8"]
+2017-07-12 18:25:05,017 INFO 21769 [master] app_worker#8:21778 start, state: none, current workers: ["1","2","3","4","5","6","7","8"]
+2017-07-12 18:25:05,586 INFO 21771 [egg:logger] init all loggers with options: {"dir":"/Users/chengyang/logs/chart","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"chart-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"type":"application"}
+2017-07-12 18:25:05,605 INFO 21773 [egg:logger] init all loggers with options: {"dir":"/Users/chengyang/logs/chart","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"chart-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"type":"application"}
+2017-07-12 18:25:05,620 INFO 21772 [egg:logger] init all loggers with options: {"dir":"/Users/chengyang/logs/chart","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"chart-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"type":"application"}
+2017-07-12 18:25:05,624 INFO 21776 [egg:logger] init all loggers with options: {"dir":"/Users/chengyang/logs/chart","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"chart-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"type":"application"}
+2017-07-12 18:25:05,626 INFO 21774 [egg:logger] init all loggers with options: {"dir":"/Users/chengyang/logs/chart","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"chart-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"type":"application"}
+2017-07-12 18:25:05,629 INFO 21778 [egg:logger] init all loggers with options: {"dir":"/Users/chengyang/logs/chart","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"chart-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"type":"application"}
+2017-07-12 18:25:05,633 INFO 21777 [egg:logger] init all loggers with options: {"dir":"/Users/chengyang/logs/chart","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"chart-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"type":"application"}
+2017-07-12 18:25:05,635 INFO 21775 [egg:logger] init all loggers with options: {"dir":"/Users/chengyang/logs/chart","encoding":"utf8","env":"prod","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":true,"outputJSON":false,"buffer":true,"appLogName":"chart-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{},"type":"application"}
+2017-07-12 18:25:05,652 INFO 21771 [egg-schedule]: register schedule egg-schedule:/Users/chengyang/project/chart/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-07-12 18:25:05,652 INFO 21771 [egg-schedule]: register schedule egg-schedule:/Users/chengyang/project/chart/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-07-12 18:25:05,665 INFO 21773 [egg-schedule]: register schedule egg-schedule:/Users/chengyang/project/chart/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-07-12 18:25:05,665 INFO 21773 [egg-schedule]: register schedule egg-schedule:/Users/chengyang/project/chart/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-07-12 18:25:05,683 INFO 21772 [egg-schedule]: register schedule egg-schedule:/Users/chengyang/project/chart/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-07-12 18:25:05,683 INFO 21772 [egg-schedule]: register schedule egg-schedule:/Users/chengyang/project/chart/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-07-12 18:25:05,685 INFO 21776 [egg-schedule]: register schedule egg-schedule:/Users/chengyang/project/chart/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-07-12 18:25:05,685 INFO 21776 [egg-schedule]: register schedule egg-schedule:/Users/chengyang/project/chart/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-07-12 18:25:05,687 INFO 21774 [egg-schedule]: register schedule egg-schedule:/Users/chengyang/project/chart/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-07-12 18:25:05,687 INFO 21774 [egg-schedule]: register schedule egg-schedule:/Users/chengyang/project/chart/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-07-12 18:25:05,689 INFO 21778 [egg-schedule]: register schedule egg-schedule:/Users/chengyang/project/chart/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-07-12 18:25:05,694 INFO 21775 [egg-schedule]: register schedule egg-schedule:/Users/chengyang/project/chart/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-07-12 18:25:05,694 INFO 21775 [egg-schedule]: register schedule egg-schedule:/Users/chengyang/project/chart/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-07-12 18:25:05,695 INFO 21778 [egg-schedule]: register schedule egg-schedule:/Users/chengyang/project/chart/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-07-12 18:25:05,696 INFO 21777 [egg-schedule]: register schedule egg-schedule:/Users/chengyang/project/chart/node_modules/egg-logrotator/app/schedule/clean_log.js
+2017-07-12 18:25:05,696 INFO 21777 [egg-schedule]: register schedule egg-schedule:/Users/chengyang/project/chart/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2017-07-12 18:25:05,711 INFO 21771 [egg-static] starting static serve /public/ -> /Users/chengyang/project/chart/app/public
+2017-07-12 18:25:05,715 INFO 21771 [egg-security] use csrf middleware
+2017-07-12 18:25:05,716 INFO 21771 [egg-security] use methodnoallow middleware
+2017-07-12 18:25:05,717 INFO 21771 [egg-security] use noopen middleware
+2017-07-12 18:25:05,717 INFO 21771 [egg-security] use nosniff middleware
+2017-07-12 18:25:05,718 INFO 21771 [egg-security] use xssProtection middleware
+2017-07-12 18:25:05,719 INFO 21771 [egg-security] use xframe middleware
+2017-07-12 18:25:05,719 INFO 21771 [egg-security] use dta middleware
+2017-07-12 18:25:05,719 INFO 21771 [egg-security] compose 7 middlewares into one security middleware
+2017-07-12 18:25:05,731 INFO 21773 [egg-static] starting static serve /public/ -> /Users/chengyang/project/chart/app/public
+2017-07-12 18:25:05,735 INFO 21773 [egg-security] use csrf middleware
+2017-07-12 18:25:05,736 INFO 21773 [egg-security] use methodnoallow middleware
+2017-07-12 18:25:05,737 INFO 21773 [egg-security] use noopen middleware
+2017-07-12 18:25:05,737 INFO 21773 [egg-security] use nosniff middleware
+2017-07-12 18:25:05,738 INFO 21773 [egg-security] use xssProtection middleware
+2017-07-12 18:25:05,738 INFO 21773 [egg-security] use xframe middleware
+2017-07-12 18:25:05,739 INFO 21773 [egg-security] use dta middleware
+2017-07-12 18:25:05,740 INFO 21773 [egg-security] compose 7 middlewares into one security middleware
+2017-07-12 18:25:05,743 INFO 21772 [egg-static] starting static serve /public/ -> /Users/chengyang/project/chart/app/public
+2017-07-12 18:25:05,747 INFO 21776 [egg-static] starting static serve /public/ -> /Users/chengyang/project/chart/app/public
+2017-07-12 18:25:05,747 INFO 21772 [egg-security] use csrf middleware
+2017-07-12 18:25:05,747 INFO 21774 [egg-static] starting static serve /public/ -> /Users/chengyang/project/chart/app/public
+2017-07-12 18:25:05,748 INFO 21772 [egg-security] use methodnoallow middleware
+2017-07-12 18:25:05,749 INFO 21772 [egg-security] use noopen middleware
+2017-07-12 18:25:05,749 INFO 21772 [egg-security] use nosniff middleware
+2017-07-12 18:25:05,750 INFO 21772 [egg-security] use xssProtection middleware
+2017-07-12 18:25:05,750 INFO 21776 [egg-security] use csrf middleware
+2017-07-12 18:25:05,750 INFO 21772 [egg-security] use xframe middleware
+2017-07-12 18:25:05,751 INFO 21772 [egg-security] use dta middleware
+2017-07-12 18:25:05,751 INFO 21772 [egg-security] compose 7 middlewares into one security middleware
+2017-07-12 18:25:05,751 INFO 21774 [egg-security] use csrf middleware
+2017-07-12 18:25:05,752 INFO 21776 [egg-security] use methodnoallow middleware
+2017-07-12 18:25:05,752 INFO 21775 [egg-static] starting static serve /public/ -> /Users/chengyang/project/chart/app/public
+2017-07-12 18:25:05,752 INFO 21776 [egg-security] use noopen middleware
+2017-07-12 18:25:05,752 INFO 21774 [egg-security] use methodnoallow middleware
+2017-07-12 18:25:05,753 INFO 21776 [egg-security] use nosniff middleware
+2017-07-12 18:25:05,753 INFO 21774 [egg-security] use noopen middleware
+2017-07-12 18:25:05,753 INFO 21774 [egg-security] use nosniff middleware
+2017-07-12 18:25:05,753 INFO 21776 [egg-security] use xssProtection middleware
+2017-07-12 18:25:05,754 INFO 21776 [egg-security] use xframe middleware
+2017-07-12 18:25:05,754 INFO 21778 [egg-static] starting static serve /public/ -> /Users/chengyang/project/chart/app/public
+2017-07-12 18:25:05,754 INFO 21774 [egg-security] use xssProtection middleware
+2017-07-12 18:25:05,755 INFO 21776 [egg-security] use dta middleware
+2017-07-12 18:25:05,755 INFO 21774 [egg-security] use xframe middleware
+2017-07-12 18:25:05,755 INFO 21776 [egg-security] compose 7 middlewares into one security middleware
+2017-07-12 18:25:05,755 INFO 21774 [egg-security] use dta middleware
+2017-07-12 18:25:05,755 INFO 21774 [egg-security] compose 7 middlewares into one security middleware
+2017-07-12 18:25:05,756 INFO 21775 [egg-security] use csrf middleware
+2017-07-12 18:25:05,757 INFO 21775 [egg-security] use methodnoallow middleware
+2017-07-12 18:25:05,758 INFO 21775 [egg-security] use noopen middleware
+2017-07-12 18:25:05,758 INFO 21775 [egg-security] use nosniff middleware
+2017-07-12 18:25:05,758 INFO 21778 [egg-security] use csrf middleware
+2017-07-12 18:25:05,759 INFO 21775 [egg-security] use xssProtection middleware
+2017-07-12 18:25:05,759 INFO 21778 [egg-security] use methodnoallow middleware
+2017-07-12 18:25:05,760 INFO 21775 [egg-security] use xframe middleware
+2017-07-12 18:25:05,760 INFO 21778 [egg-security] use noopen middleware
+2017-07-12 18:25:05,760 INFO 21775 [egg-security] use dta middleware
+2017-07-12 18:25:05,760 INFO 21775 [egg-security] compose 7 middlewares into one security middleware
+2017-07-12 18:25:05,760 INFO 21778 [egg-security] use nosniff middleware
+2017-07-12 18:25:05,761 INFO 21777 [egg-static] starting static serve /public/ -> /Users/chengyang/project/chart/app/public
+2017-07-12 18:25:05,761 INFO 21778 [egg-security] use xssProtection middleware
+2017-07-12 18:25:05,762 INFO 21778 [egg-security] use xframe middleware
+2017-07-12 18:25:05,762 INFO 21778 [egg-security] use dta middleware
+2017-07-12 18:25:05,763 INFO 21778 [egg-security] compose 7 middlewares into one security middleware
+2017-07-12 18:25:05,764 INFO 21777 [egg-security] use csrf middleware
+2017-07-12 18:25:05,765 INFO 21777 [egg-security] use methodnoallow middleware
+2017-07-12 18:25:05,766 INFO 21777 [egg-security] use noopen middleware
+2017-07-12 18:25:05,766 INFO 21777 [egg-security] use nosniff middleware
+2017-07-12 18:25:05,767 INFO 21771 [egg-watcher:app] watcher start success
+2017-07-12 18:25:05,767 INFO 21777 [egg-security] use xssProtection middleware
+2017-07-12 18:25:05,767 INFO 21777 [egg-security] use xframe middleware
+2017-07-12 18:25:05,768 INFO 21777 [egg-security] use dta middleware
+2017-07-12 18:25:05,768 INFO 21777 [egg-security] compose 7 middlewares into one security middleware
+2017-07-12 18:25:05,786 INFO 21773 [egg-watcher:app] watcher start success
+2017-07-12 18:25:05,792 INFO 21769 [master] app_worker#1:21771 started at 7001, remain 7 (799ms)
+2017-07-12 18:25:05,800 INFO 21772 [egg-watcher:app] watcher start success
+2017-07-12 18:25:05,803 INFO 21775 [egg-watcher:app] watcher start success
+2017-07-12 18:25:05,803 INFO 21774 [egg-watcher:app] watcher start success
+2017-07-12 18:25:05,805 INFO 21769 [master] app_worker#3:21773 started at 7001, remain 6 (812ms)
+2017-07-12 18:25:05,806 INFO 21776 [egg-watcher:app] watcher start success
+2017-07-12 18:25:05,807 INFO 21778 [egg-watcher:app] watcher start success
+2017-07-12 18:25:05,811 INFO 21777 [egg-watcher:app] watcher start success
+2017-07-12 18:25:05,818 INFO 21769 [master] app_worker#2:21772 started at 7001, remain 5 (825ms)
+2017-07-12 18:25:05,820 INFO 21769 [master] app_worker#6:21776 started at 7001, remain 4 (827ms)
+2017-07-12 18:25:05,821 INFO 21769 [master] app_worker#5:21775 started at 7001, remain 3 (828ms)
+2017-07-12 18:25:05,822 INFO 21769 [master] app_worker#8:21778 started at 7001, remain 2 (829ms)
+2017-07-12 18:25:05,822 INFO 21769 [master] app_worker#4:21774 started at 7001, remain 1 (829ms)
+2017-07-12 18:25:05,824 INFO 21769 [master] app_worker#7:21777 started at 7001, remain 0 (831ms)
+2017-07-12 18:25:05,825 INFO 21769 [master] egg started on http://127.0.0.1:7001 (1169ms)
